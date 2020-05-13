@@ -22,3 +22,4 @@ end
 #Notes for Self (Kelsey):
 # be mindful of what we are passing in as argument
 # in this case backer is a full NEW backer object that was already created.  Then we are calling on the backer a built in method that it already has called backed_projects, and pushing the project into that method 
+#this also means that we do not have to create a NEW backer in the add backer method because it is all done by passing it in as an argument
